@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic cars</title>
+    <!-- ---------------- CSS link ----------------- -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- ---------------- Font Awesome ----------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ---------------- menu ----------------- -->
+    <div class="menu target">
+      <div class="menu-line menu-line-1"></div>
+      <div class="menu-line menu-line-2"></div>
+    </div>
+    <!-- ---------------- Navbar ----------------- -->
+    <div class="navbar center target">
+      <a href="#Home" class="navbar-link">Home</a>
+      <a href="#popular cars" class="navbar-link">popular cars</a>
+      <a href="#Video gallery" class="navbar-link">Video gallery</a>
+      <a href="#Image gallery" class="navbar-link">Image gallery</a>
+      <a href="#Contact" class="navbar-link">Contact</a>
+      <div class="social-links target">
+        <a href="#none"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#none"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <!-- ---------------- section 1 ----------------- -->
+    <div class="wrapper">
+      <section class="section-1 target center" id="Home">
+        <h1 class="section-heading section-1-heading">Classic Cars</h1>
+        <img src="./assets/images/car-section1.png" class="section-1-img" />
+      </section>
+    </div>
+    <!-- ---------------- section 2 ----------------- -->
+    <div class="wrapper">
+      <section class="section-2 target" id="popular cars">
+        <h1 class="section-heading section-2-heading">Popular cars</h1>
+        <div class="cards-wrapper center">
+          <div class="card">
+            <h2 class="car-name">Car Name</h2>
+            <img src="./assets/images/car-1.jpg" class="car-img" />
+            <h3 class="car-price">$200,000</h3>
+            <button type="button" class="card-btn">See more</button>
+          </div>
+          <div class="card">
+            <h2 class="car-name">Car Name</h2>
+            <img src="./assets/images/car-2.jpg" class="car-img" />
+            <h3 class="car-price">$100,000</h3>
+            <button type="button" class="card-btn">See more</button>
+          </div>
+          <div class="card">
+            <h2 class="car-name">Car Name</h2>
+            <img src="./assets/images/car-3.jpg" class="car-img" />
+            <h3 class="car-price">$150,000</h3>
+            <button type="button" class="card-btn">See more</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ---------------- section 3 ----------------- -->
+    <div class="wrapper">
+      <section class="section-3 target" id="Video gallery">
+        <h1 class="section-heading">Video Gallery</h1>
+        <div class="video-wrapper center">
+          <video
+            src="./assets/images/car-video-1.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="./assets/images/car-video-2.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="./assets/images/car-video-3.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+        </div>
+        <div class="video-wrapper center">
+          <video
+            src="./assets/images/car-video-4.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="./assets/images/car-video-5.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="./assets/images/car-video-6.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+        </div>
+      </section>
+    </div>
+    <!-- ---------------- section 4 ----------------- -->
+    <div class="wrapper">
+      <section class="section-4 target" id="Image gallery">
+        <h1 class="section-heading section-4-heading">Image gallery</h1>
+        <div class="gallery">
+          <div class="gallery-shelf center">
+            <img
+              src="./assets/images/gallery-car-1.jpg"
+              class="gallery-img-1"
+            />
+            <img
+              src="./assets/images/gallery-car-2.jpg"
+              class="gallery-img-2"
+            />
+            <img
+              src="./assets/images/gallery-car-3.jpg"
+              class="gallery-img-3"
+            />
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="gallery-shelf center">
+            <img
+              src="./assets/images/gallery-car-4.jpg"
+              class="gallery-img-1"
+            />
+            <img
+              src="./assets/images/gallery-car-5.jpg"
+              class="gallery-img-2"
+            />
+            <img
+              src="./assets/images/gallery-car-6.jpg"
+              class="gallery-img-3"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ---------------- section 5 ----------------- -->
+    <div class="wrapper">
+      <section class="section-5 target" id="Contact">
+        <h1 class="section-heading">Contact</h1>
+        <form class="contact-form">
+          <label for="text">Enter your Fullname</label>
+          <input type="text" id="text" class="form-input" />
+          <label for="email">Enter Your Email</label>
+          <input
+            type="email"
+            id="email"
+            class="form-input"
+            label="Enter Your Email"
+          />
+          <textarea class="form-input" placeholder="Your massage"></textarea>
+          <input class="form-btn" type="submit" value="Submit" />
+        </form>
+        <p class="copyright">Copyright &copy; CodeAndCreated by Ameer Hamza</p>
+      </section>
+    </div>
+    <!-- ---------------- javaScript ----------------- -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
